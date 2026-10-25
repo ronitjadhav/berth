@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="berth">
+  <schema id="org.gnome.shell.extensions.berth" path="/org/gnome/shell/extensions/berth/">
+    <key name="panel-label" type="s">
+      <choices>
+        <choice value="running"/>
+        <choice value="running-total"/>
+        <choice value="none"/>
+      </choices>
+      <default>'running'</default>
+      <summary>What to show next to the panel icon</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'right'</default>
+      <summary>Panel box to put the indicator in</summary>
+    </key>
+    <key name="show-stopped" type="b">
+      <default>false</default>
+      <summary>List stopped containers too</summary>
+    </key>
+    <key name="hide-oneoff" type="b">
+      <default>true</default>
+      <summary>Hide one-off containers created by docker compose run</summary>
+    </key>
+    <key name="group-by-project" type="b">
+      <default>true</default>
+      <summary>Group containers by Compose project</summary>
+    </key>
+    <key name="notify-exit" type="b">
+      <default>true</default>
+      <summary>Notify when a container exits with an error</summary>
+    </key>
+    <key name="show-stats" type="b">
+      <default>true</default>
+      <summary>Show live CPU and memory usage for expanded containers</summary>
+    </key>
+    <key name="docker-command" type="s">
+      <default>'docker'</default>
+      <summary>Docker CLI to run</summary>
+    </key>
+    <key name="terminal-command" type="s">
+      <default>''</default>
+      <summary>Terminal command prefix, empty to auto-detect</summary>
+    </key>
+    <key name="container-shell" type="s">
+      <default>'bash'</default>
+      <summary>Shell to try first inside containers, sh is the fallback</summary>
+    </key>
+  </schema>
+</schemalist>

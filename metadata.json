@@ -1,0 +1,9 @@
+{
+    "uuid": "berth@ronitjadhav",
+    "name": "Berth",
+    "description": "Docker containers in the top bar, grouped by Compose project.\n\nSee what is running at a glance. Expand a container for its image, ports, mounts, network, live CPU and memory, and the folder it was started from. Start, stop, pause, restart, kill or remove containers; bring whole Compose projects up or down. Logs, shells and inspect output open in your terminal.\n\nRequires the docker CLI and permission to talk to the Docker daemon. \"Copy ID\" writes to the clipboard.",
+    "shell-version": ["46", "47", "48", "49", "50", "51"],
+    "url": "https://github.com/ronitjadhav/berth",
+    "settings-schema": "org.gnome.shell.extensions.berth",
+    "gettext-domain": "berth"
+}
