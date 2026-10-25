@@ -1,0 +1,165 @@
+/* Berth - Docker containers in the GNOME top bar */
+
+.berth-panel-label {
+    margin-left: 4px;
+}
+
+/* One width whatever is expanded: long text is shortened instead. */
+.berth-menu {
+    width: 36em;
+}
+
+.berth-filter {
+    margin: 2px 0;
+}
+
+.berth-icon-button {
+    margin-left: 6px;
+}
+
+.berth-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Group headers (projects, repositories) read as sections: a rule above, a bold name. */
+.berth-group {
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.berth-group:first-child {
+    border-top-width: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.berth-header-name {
+    font-weight: bold;
+}
+
+.berth-indent {
+    padding-left: 32px;
+}
+
+.berth-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #9a9996;
+}
+
+.berth-dot-running {
+    background-color: #33d17a;
+}
+
+.berth-dot-paused {
+    background-color: #f6d32d;
+}
+
+.berth-dot-bad {
+    background-color: #e01b24;
+}
+
+.berth-meta {
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+.berth-details {
+    padding: 2px 12px 8px 36px;
+    spacing: 4px;
+}
+
+/* The project actions: an inset card under the project header. */
+.berth-card {
+    background-color: rgba(128, 128, 128, 0.12);
+    border-radius: 8px;
+    margin: 2px 12px 6px 32px;
+    padding: 8px 12px;
+}
+
+.berth-kv {
+    spacing: 10px;
+}
+
+.berth-key {
+    min-width: 5.5em;
+}
+
+.berth-links {
+    spacing: 6px;
+}
+
+.berth-link {
+    padding: 0;
+}
+
+.berth-link:hover,
+.berth-link:focus {
+    text-decoration: underline;
+}
+
+.berth-buttons {
+    spacing: 6px;
+    margin-top: 4px;
+}
+
+.berth-button {
+    padding: 3px 10px;
+}
+
+.berth-button StBoxLayout {
+    spacing: 6px;
+}
+
+/* The quiet buttons at the end of a panel: no frame until hovered. */
+.berth-flat {
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+.berth-flat:hover,
+.berth-flat:focus {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.berth-danger {
+    color: #e01b24;
+}
+
+.berth-confirm {
+    background-color: #e01b24;
+    color: #ffffff;
+}
+
+.berth-row-button {
+    padding: 4px;
+    margin-left: 4px;
+    border-radius: 99px;
+}
+
+.berth-row-button:hover,
+.berth-row-button:focus {
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.berth-row-button StIcon {
+    icon-size: 16px;
+}
+
+.berth-message {
+    padding: 12px 16px;
+    spacing: 8px;
+}
+
+.berth-panel-warning {
+    color: #f66151;
+}
+
+.berth-log {
+    font-family: monospace;
+    font-size: 0.9em;
+}
